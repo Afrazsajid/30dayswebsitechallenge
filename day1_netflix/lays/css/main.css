@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+:root{
+    --color1:#da291c;
+    --width:1070px;
+}
+
+body{
+    background-color: #fbb716;
+margin: 0;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+
+img{
+    width:100%;
+
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* For Mobile Devices – 320px — 480px.
+iPads and Tablets – 481px — 768px.
+Laptops and small screen – 769px — 1024px.
+Large screens and Desktops – 1025px — 1200px.
+TV and Extra Large Screens – 1201px and more. */

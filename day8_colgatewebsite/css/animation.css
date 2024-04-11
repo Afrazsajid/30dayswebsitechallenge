@@ -1,0 +1,21 @@
+.animate__fadeInUp{
+    animation-duration:1.8s;
+}
+
+.animate__fadeInDown{
+    animation-duration: 1.5s;
+}
+
+.animate__backInLeft,.animate__backInRight{
+    animation-duration: 1s;
+}
+
+@keyframes heightfill {
+    from {height:0px;
+    
+}
+    to {height:186px;
+        
+    }
+    
+  }

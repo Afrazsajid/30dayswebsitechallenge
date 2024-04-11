@@ -1,0 +1,126 @@
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 7px;
+  }
+
+
+  .sec > div {
+    flex-direction: column;
+  }
+
+  #sec3_animation_container {
+    min-width: 280px;
+    height: 70px;
+    left: 21.4%;
+ 
+    /* display:block; */
+  }
+
+  #sec5 {
+
+
+    justify-content: flex-start;
+  }
+
+  .email_input_container {
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+  }
+  .nav-button {
+    margin-right: 12px;
+    font-size: 1.6rem;
+  }
+  .logo {
+    width: 150px;
+  }
+
+  #main-hero-content h2 {
+    text-align: center;
+  }
+
+  #main-hero-content input[type="email"] {
+    width: 75vw;
+  }
+
+  #main-hero-content p {
+    font-size: 2.2rem;
+  }
+
+  .tex-sec2 h3 {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .tex-sec2 p {
+    margin: auto;
+    margin-top: 12px;
+    text-align: center;
+    width: 95vw;
+    font-size: 2.2rem;
+  }
+
+  .sec2_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .tex-sec3 {
+
+    margin: auto;
+    margin-top :12px;
+    width: 85%;
+  }
+
+  .tex-sec3 h3 {
+    width: 100%;
+    text-align: center;
+    
+    font-size: 4.2rem;
+  }
+
+  .tex-sec3 p {
+    text-align: center;
+    width: 100%;
+    font-size: 2.2rem;
+  }
+
+  .tex-sec5{
+    margin:auto;
+  }
+
+  .tex-sec4 p{
+    margin-bottom: 16px;
+  }
+
+
+
+  .detail-container{
+    width: 86%;
+  }
+
+  #footer-nav{
+    padding-left: 50px;
+    gap: 12px;
+    font-size: 2rem;
+    /* gap: 12px; */
+
+  }
+
+  #footer-nav>div{
+    width: 40%;
+  }
+
+  #sec5 p{
+    width: 100%;}
+    #sec5 h3{
+      width: 100%;}
+
+
+
+
+
+
+}

@@ -1,0 +1,543 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 45px;
+    gap: 50px;
+    background-color:#821019;
+}
+
+nav > .nav-cont{
+    display: flex;
+}
+
+
+
+.nav-cont a{
+    display: block;
+    padding: 10px 12px 10px 35px;
+    font-size:1.4rem;
+    font-weight: 700;
+    transition: all 0.25s;
+}
+
+.nav-cont a:hover{
+   
+    text-decoration: underline;
+}
+
+#hero{
+    width: 100vw;
+    height: calc(100vh - 45px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    gap: 149px;
+
+    padding-top: 12px;
+}
+
+.bg-video{
+    background-color: black;
+    opacity: 50%;
+    position: absolute;
+    z-index: -1000;
+    width: 100vw;
+}
+
+#hero .bg-video video{
+    object-fit:cover;
+    width: 100%;
+    height: calc(100vh - 46px);
+    background-color: black;
+}
+
+.bg-video video::after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+
+#hero-nav{
+
+    height: fit-content;
+
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero-nav a{
+
+    transition: all 2s;
+ 
+    bottom:-8px;
+    display: block;
+    
+    font-size: 2.4rem;
+    
+    padding: 10px 20px;
+    overflow: hidden;
+    overflow-y: hidden;
+ 
+}
+
+#btn{
+   
+    border-radius: 5px;
+    color:rgb(169, 11, 11) ;
+    background-color: white;
+    
+}
+#hero-nav #btn i{
+    color: rgb(169, 11, 11);
+}
+
+.hero-nav-slide-down{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: red;
+    /* position: relative; */
+    left: 13px;
+    margin-right: 12px;
+
+    transition: all 4s;
+
+    display: none;
+
+}
+
+.hero-nav-slide-down span{
+ 
+    padding: 12px 100px;
+   
+    background-color:white;
+    font-size: 1.9rem;
+    color: #821019;
+
+}
+a:hover>.hero-nav-slide-down{
+  
+    display: flex;
+  
+   
+}
+
+
+.text-2{
+    width:100vw;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    padding-top: 90px;
+    padding-bottom: 60px;
+    margin-bottom: 45px;
+
+    border-bottom: 3px solid red;
+}
+
+.text-2 h2{
+    font-family: fangsong;
+    
+    width:759px;
+    font-size:4.4rem;
+    text-align: center;
+    margin-bottom:
+    16px;
+    color: #d41c2b;
+}
+
+.text-2 p{
+    line-height: 34px;
+    text-align: center;
+    width:780px;
+    font-size:3rem;
+    color: rgb(80, 78, 78);
+}
+
+.sec-2-cont{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+ 
+}
+
+
+.sec-2-cont .img-cont-2{
+    width: 974px;
+    height: 671px;
+    padding-bottom:80px;
+    padding-top:80px;
+}
+
+
+.sec-2-cont .text-cont-2{
+    height:525px;
+    /* background-color: blue; */
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sec-2-cont .text-cont-2 h3{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: black;
+    transition: all 0.3s;
+
+}
+
+.sec-2-cont .text-cont-2 div:hover h3{
+    color: #d41c2b;
+}
+
+.sec-2-cont .text-cont-2 p{
+    color: black;
+    font-size: 2.2rem;
+}
+
+
+#sec2{
+    background-color: white;
+}
+
+
+
+.redrect{
+    padding-bottom: 45px;
+    height: 550px;
+    width: 1100px;
+    background-color: #821019;
+}
+
+.redrect img{
+    width: 95%;
+    height: 95%;
+    position: relative;
+    top: 5.3%;
+
+    left: 72px;
+}
+
+
+#sec3{
+    position: relative;
+
+    z-index: 6;
+    background-image: url('https://www.colgate.edu/sites/default/files/styles/optimized/public/images/home_stat/56-majors-1920x1080.jpg?itok=3xFPms4m');
+
+
+     /* Gradient colors */
+     /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+    background-position: center; /* Adjust as needed (left, center, right, top, bottom, etc.) */
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100vw;
+  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.bgsec3{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -58;
+    background: rgb(84,0,0);
+    background: linear-gradient(180deg, rgba(84,0,0,1) 0%, rgba(96,10,10,1) 41%, rgba(126,16,16,1) 100%);
+
+
+}
+
+.bgsec3 img{
+    opacity: 60%;
+}
+  
+    
+
+
+
+#sec3 h3{
+    font-weight:bolder;
+    color: white;
+    font-family:serif;
+    margin-top: 20px;
+    font-size: 3.5rem;
+    width: 846px;
+
+    padding-left: 80px;
+    padding-top: 45px;
+    line-height: 38px;
+
+    text-shadow: 1px 1px #000000;
+
+
+}
+
+#sec3 .info-cont{
+    margin-bottom: 20px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    gap: 12px; 
+}
+
+#sec3>.info-cont div{
+    width: 348px;
+    height: 232px;
+
+    transition: all ease 0.4s;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sec3>.info-cont div:hover{
+    cursor: pointer;
+    background-color: rgb(133, 0, 0);
+    border-top: 7px solid red;
+}
+
+
+
+#sec3>.info-cont div>h4{
+    font-size: 6rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#sec3>.info-cont div>p{
+
+    text-align: center;
+    width: 80%;
+    font-size: 2rem;
+}
+
+
+#sec4{
+    padding-top: 15px;
+    display: flex;
+    justify-content:flex-end;
+    background-color: white;
+    padding-bottom: 40px;
+    border-bottom: 3px solid rgb(158, 6, 6);
+
+}
+
+#sec4>.sec4-img{
+    width:53%;
+    height:780px;
+    background-color: rgb(255, 255, 255);
+    object-fit:cover;
+    overflow: hidden;
+}
+
+.sec4-text-cont{
+
+    width:43%;
+    height:780px;
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+
+.sec4-text-cont h3{
+    font-size: 10rem;
+    padding: 32px;
+    color:rgb(174, 13, 13);
+    font-family: serif;
+    padding-top: 41px;
+}
+
+.iner-text4cont{
+    color: white;
+    width: 650px;
+    height: fit-content;
+
+    
+  
+
+    position: relative;
+    background-color: transparent;
+    border-right: 5px solid red;
+
+    margin-bottom: 45px;
+    
+    
+}
+
+.iner-text4cont h6{
+    font-family: serif;
+    position: relative;
+    z-index: 1000000;
+    font-size: 20px;
+    color: #000000;
+    width: 68%;
+    margin: 18px;
+    font-weight: 300;
+  
+}
+
+.iner-text4cont p{
+    position: relative;
+    z-index: 1000000;
+    font-size: 16px;
+    color: #000000;
+    margin: 18px;
+    color: rgb(255, 204, 204);
+    display: none;
+    transition: all ease 0.3s;
+    
+}
+
+.sectext4bg{
+    position: absolute;
+    width: 100%;
+}
+
+
+.sec4-text-cont a{
+    display: block;
+}
+
+
+
+.sec4-text-cont a:hover .iner-text4cont{
+    padding-top: 12px;
+    
+
+    left: 20px;
+    animation-name:heightfill;
+    animation-duration: 1s;
+    background-color:rgb(160, 20, 20);
+
+
+      
+    /* The element to apply the animation to */
+   
+
+}
+
+.sec4-text-cont a:hover .iner-text4cont p{
+    padding-bottom: 12px;
+    display: block;
+}
+
+.sec4-text-cont a:hover .iner-text4cont h6{
+
+    color: white;
+    font-size: 26px;
+}
+
+
+
+#sec5{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec5 div {
+    padding: 20px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#sec5 div h6{
+    font-size: 5rem;
+    margin: 8px;
+    text-align: start;
+    color: #821019;
+
+  
+}
+
+#sec5 div p{
+    font-size: 1.6rem;
+    margin: 5px;
+    width: 70%;
+    color: #95313a;
+  
+}
+
+footer{
+    background-color: #821019;
+    display: flex;
+    justify-content:center;
+    gap: 148px;
+    padding: 45px 10px;
+}
+
+.footer-logo img{
+    height: auto;
+}
+.footer-logo{
+    width: 160px;
+    height: auto;
+}
+
+
+.fotter-div a{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 12px;
+}
+.fotter-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-ico-link-cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+    
+
+}
+
+.social-ico-link-cont a i{
+    font-size: 3rem;
+
+}
+
+
+
+
+
+
+ 

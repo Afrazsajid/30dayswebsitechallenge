@@ -1,0 +1,222 @@
+nav{
+    background-color: yellow;
+    max-width:var(--width);
+    height: 80px;
+    margin: auto;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+
+
+.logo{
+    width:92px;
+    height:92px;
+}
+
+.nav-value-cont{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+
+nav .nav-value-cont span{
+    padding: 12px 8px;
+}
+
+nav .nav-value-cont span a{
+    color: black;
+    font-size:1.4rem;
+    font-weight: 500;
+
+    padding: 8px 9px;
+    border-radius:26px;
+    color:black;
+    font-weight: 600;
+
+    transition: all ease 0.3s;
+
+}
+
+
+.ico1 a{
+    border: 1px solid ;
+    color: black;
+    font-size: 1.8rem;
+    padding: 3px;
+
+}
+
+.ico2 a i{
+    font-size: 2.4rem;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: black;
+    font-weight: 600;
+
+}
+
+nav .nav-value-cont span a:hover{
+    background-color: var(--color1);
+    color: white;
+
+}
+main{
+    margin: auto;
+    width:var(--width);
+    background-color: red;
+    padding: 30px;
+}
+
+.product-main{
+    margin: auto;
+    width:var(--width);
+    background-color: red;
+    padding: 30px;
+
+    background-image: url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-products.jpg?1"),url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-products2.jpg?1");
+
+ 
+
+    background-position: right top, left bottom;
+
+    background-repeat: no-repeat, no-repeat;
+    margin-bottom: 18px;
+
+}
+
+.recepie-main{
+
+    background-color:#f6be07;
+
+    background-image: url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-recipes2.jpg?1"),url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-recipes3.jpg?1");
+}
+
+.videos-main{
+    margin:auto;
+
+    width:var(--width);
+
+    background-color:#2c9705;
+
+    background-image: url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-videos2.jpg?1"),url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-videos.jpg?1");
+
+
+    background-position: right top, left bottom;
+
+    background-repeat: no-repeat, no-repeat;
+    margin-bottom: 18px;
+
+    padding: 100px 0px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#vidcont{
+    width: 60%;
+
+}
+
+.video-image-cont{
+    width: 100%;
+}
+
+
+
+.text-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+
+
+}
+
+
+.text-cont h4{
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+.text-cont .btn{
+    margin-left:2rem;
+    font-size: 1.9rem;
+    padding:0.2em 0.4em;
+    background-color: var(--color1);
+    border-radius:16px;
+}
+
+footer{
+    margin:auto;
+
+    width:var(--width);
+    height:174px;
+    background-image: url(https://www.lays.com/sites/lays.com/themes/lays/img/bg-contactus-en.jpg?3);
+    background-size:cover;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.social-ico-links{
+    /* width: fit-content; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5.8%;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+footer i{
+    font-size: 8rem;
+    color: #f6be07;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

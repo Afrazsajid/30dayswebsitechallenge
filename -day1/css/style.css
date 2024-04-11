@@ -1,0 +1,212 @@
+
+
+main{
+    background-color: #f4f3ef;
+    height: 200vh;
+}
+
+
+.bg{
+    /* z-index:3; */
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+    
+    background-image: url(https://wtop.com/wp-content/uploads/2022/08/080422_mighty-Meals.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: #f4f3ef;
+    
+
+}
+
+.bgcover{
+    z-index:2;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 40%;
+    
+
+}
+
+/* nav */
+nav{
+    z-index: 3;
+    position:sticky;
+    top: 0;
+    width: 75%;
+    padding: 0 36px;
+    background-color:white;
+    margin: auto;
+    height: 121px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.menu-ico{
+    display: none;
+}
+
+.nav-cont{
+
+    height: 121px;
+    /* background-color: rgb(75, 122, 122); */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-cont3{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    
+    flex-direction: column;
+}
+
+
+.nav-ico-cont{
+    display:flex;
+    justify-content: end;
+    gap: 18px;
+}
+.nav-cont3 i{
+    color:var(--color1);
+    font-size: 2.6rem;
+}
+
+.nav-menu-cont{
+    display: flex;
+    gap: 14px;
+}
+
+.nav-menu-cont a{
+    transition: all ease 0.3s;
+    font-size: 1.4rem;
+    padding: 0 1.2rem;
+}
+
+
+
+/* her0 */
+
+.hero{
+    position: relative;
+    z-index: 1000;
+
+    width: 100vw;
+    height: calc(100vh - 121px);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    /* top: 0; */
+
+
+
+}
+
+.hero-cont{
+    width: 1374px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin: auto;
+    padding-left: 30px;
+  
+ 
+
+}
+
+.hero h1{
+    line-height:80px;
+    width: 559px;
+    font-size: 75px;
+
+    font-weight: 700;
+}
+
+.hero p{
+    display: block;
+    width: 60%;
+    font-size: 18px;
+}
+
+
+.hero .btn{
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    width: fit-content;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+
+}
+
+.hero .btn:hover{
+    background-color: white;
+    color: var(--color1);
+}
+
+.post-sec{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+.post-sec-info-cont{
+    width: 341px;
+    height: 700px;
+    background-color: aqua;
+}
+
+
+
+.post{
+    width: 641px;
+    height: 304px;
+    display: flex;
+
+}
+
+
+
+.info-personal-info-cont{
+    background-color:blueviolet;
+}
+
+
+.nav-menu-cont a:hover{
+    display: block;
+    /* transform: scale(1.1); */
+  
+    cursor: pointer;
+    transform: translateY(-8px);
+    color: aquamarine;
+
+}
+
+.nav-ico-cont i:hover{
+    cursor:pointer;
+    color: aquamarine;
+
+}
+
+
+
+
+
+
+
+
+
